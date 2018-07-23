@@ -33,6 +33,7 @@
       },
       "sqlAdministratorLogin": {
         "type": "string",
+        "defaultValue": "sampldbadmin",
         "metadata": {
           "description": "The admin user of the SQL Server"
         }
@@ -159,6 +160,10 @@
       "siteUri": {
         "type": "string",
         "value": "[reference(concat('Microsoft.Web/sites/', variables('webSiteName'))).hostnames[0]]"
+      },
+      "siteName": {
+          "type": "string",
+          "value": "[variables('webSiteName')]"
       },
       "sqlSvrFqdn": {
         "type": "string",
