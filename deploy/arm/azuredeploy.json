@@ -53,9 +53,9 @@
       }
     },
     "variables": {
-      "hostingPlanName": "[concat('hostingplan', uniqueString(resourceGroup().id))]",
-      "webSiteName": "[concat('webSite', uniqueString(resourceGroup().id))]",
-      "sqlserverName": "[concat('sqlserver', uniqueString(resourceGroup().id))]",
+      "hostingPlanName": "[concat('hostingplan', resourceGroup().name]",
+      "webSiteName": "[concat('webSite', resourceGroup().name)]",
+      "sqlserverName": "[concat('sqlserver', resourceGroup().name)]",
       "databaseName": "sampledb"
     },
     "resources": [
