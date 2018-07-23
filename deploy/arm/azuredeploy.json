@@ -53,7 +53,7 @@
       }
     },
     "variables": {
-      "hostingPlanName": "[concat('hostingplan', resourceGroup().name]",
+      "hostingPlanName": "[concat('hostingplan', resourceGroup().name)]",
       "webSiteName": "[concat('webSite', resourceGroup().name)]",
       "sqlserverName": "[concat('sqlserver', resourceGroup().name)]",
       "databaseName": "sampledb"
