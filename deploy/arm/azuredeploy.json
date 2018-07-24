@@ -33,7 +33,7 @@
       },
       "sqlAdministratorLogin": {
         "type": "string",
-        "defaultValue": "sampldbadmin",
+        "defaultValue": "sampledbadmin",
         "metadata": {
           "description": "The admin user of the SQL Server"
         }
