@@ -2,3 +2,7 @@ bin/
 obj/
 *.suo
 *.sqlproj.user
+.vs/
+TestResults/
+*.webtestresult
+*.dbmdl
